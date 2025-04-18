@@ -1,0 +1,12 @@
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right a {
+    text-decoration: none;
+    background-color: #3848a2;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+}

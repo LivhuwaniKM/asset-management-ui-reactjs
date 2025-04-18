@@ -1,0 +1,130 @@
+/*COLORS
+#4158d8 - blue fade
+#070b22 - blue dark
+#041dab - blue dark light for active links
+*/
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    /*position: absolute;*/
+    max-width: 100%;
+}
+
+/*SIDEBAR*/
+
+.sidebar {
+    width: 14vw;
+    height: 100vh;
+    background-color: #070b22;
+    color: white;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.sidebar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+.main-logo {
+    width: 3.5rem;
+}
+
+ul {
+    padding: 12px 0 0 22px;
+}
+
+ul li {
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    color: #4158d8;
+}
+
+.sidebar-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    padding-top: 4px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.copyright p:nth-child(1) {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.copyright p:nth-child(2), .copyright p:nth-child(3) {
+    margin: 0;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+/*TOPBAR*/
+.topbar {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 0 3rem;
+    color: #808080;
+    font-size: 22px;
+    box-shadow:  0 4px 10px -1px gray;
+}
+
+.topbar-left {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.topbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon:hover {
+    border-radius: 50%;
+    background-color: rgba(65, 88, 216, .1);
+    transition: 0.25s;
+    overflow: hidden;
+    font-size: 22px;
+}
+
+.arrow-icon:hover {
+    color: #ced4da;
+}
